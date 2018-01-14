@@ -1,0 +1,126 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  height: 40px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+body {
+  height: 100%;
+  font-family: helvetica, arial;
+}
+
+
+.page {
+  height: 100vh;
+  padding-top: 70px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0;
+  margin:0; 
+  }
+
+#home {
+  text-align: center;
+  background-image: url(https://static.pexels.com/photos/38136/pexels-photo-38136.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #9fdfdf;
+  text-shadow: 2px 2px 1px #000;
+
+}
+#homeContent  {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#about {
+  background-image: url(https://static.pexels.com/photos/105244/pexels-photo-105244.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 10px #000;
+  text-align: center;
+  color: #eee;
+  overflow-x: auto;
+  padding-top: 40px;
+  font-size: .95rem;
+  
+  width: 100%;
+  margin: 0;
+}
+
+#portfolio {
+  background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  color: #555;
+  text-decoration: underline;
+  overflow-x: auto;
+  padding-top: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+#contact {
+  background-image: url(https://static.pexels.com/photos/714060/pexels-photo-714060.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #ddd;
+  text-align: center;
+  color: #333;
+}
+#contactContent {
+  position: relative;
+  top: 30%;
+  left: 50%
+  transform: translate(-50%, -50%);
+}
+.container {
+  margin: 0;
+  justify-content: center;
+  display: grid;
+  grid-gap: 5px 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-rows: repeat(2, 200px);
+
+}
+
+.project {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  background-color: #444444;
+
+}
+img {
+ width: 100%;
+ height: auto;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  color: #aaaaaa;
+}
+a:visited {
+  color: #999999;
+}
