@@ -1,4 +1,5 @@
 .navbar {
+  color: white;
   overflow: hidden;
   background-color: #333;
   height: 40px;
@@ -97,11 +98,6 @@ body {
 }
 .container {
   margin: 0;
-  justify-content: center;
-  display: grid;
-  grid-gap: 5px 5px;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  grid-template-rows: repeat(2, 200px);
 
 }
 
@@ -111,6 +107,10 @@ body {
   overflow: hidden;
   background-color: #444444;
 
+}
+.thumbnail img {
+  height: 270px;
+  width: 100%;
 }
 
 a:link {
