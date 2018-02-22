@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+  background-image: url(https://images.unsplash.com/photo-1415926975120-020cd7670707?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fda7c4c6f39015772b7c0bea57e3dab7&auto=format&fit=crop&w=1496&q=80);
+  background-size: cover;
+  text-shadow: 2px 2px 9px #ccc;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+#about {
+  background-image: url(https://static.pexels.com/photos/105244/pexels-photo-105244.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 9px #333;
+  text-align: center;
+  color: #ccc;
+  overflow-x: auto;
+  padding-top: 80px;
+  font-size: 1.7rem;
+  
+  width: 100%;
+  margin: 0;
+}
+
+
+#portfolio {
+  background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #000;
+  text-align: center;
+  color: #555;
+  text-decoration: underline;
+  overflow-x: auto;
+  padding-top: 80px;
+  width: 100%;
+  margin: 0;
+}
+
+#contact {
+  background-image: url(https://static.pexels.com/photos/714060/pexels-photo-714060.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px 0px #ddd;
+  text-align: center;
+  color: #333;
+  padding-top: 80px;
+}
+#contactContent {
+  position: relative;
+  top: 30%;
+  left: 50%
+  transform: translate(-50%, -50%);
+}
+
+
+
+ img {
+  height: 270px;
+  width: 100%;
+}
