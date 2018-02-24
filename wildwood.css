@@ -8,8 +8,16 @@ header {
   padding: 154px 0 100px;
   background-image: url(https://images.unsplash.com/photo-1415926975120-020cd7670707?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fda7c4c6f39015772b7c0bea57e3dab7&auto=format&fit=crop&w=1496&q=80);
   background-size: cover;
-  text-shadow: 2px 2px 9px #ccc;
-  color: #000;
+  font-family: fantasy, arial, helvetica;
+  text-shadow: 1px 1px 1px #999, 0 0 3px #eee;
+  color: #35241d;
+}
+header h1 {
+  font-size: 6em;
+}
+.lead {
+  
+  font-size: 3rem;
 }
 
 @media (min-width: 992px) {
@@ -24,45 +32,58 @@ section {
 
 
 #about {
-  background-image: url(https://static.pexels.com/photos/105244/pexels-photo-105244.jpeg);
+  background-image: url(https://images.unsplash.com/photo-1509937991139-724301be9280?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=030053694ccb04e435f5d29d5b24b05b&auto=format&fit=crop&w=934&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-shadow: 1px 1px 9px #333;
+  text-shadow: 1px 1px 2px #000;
   text-align: center;
-  color: #ccc;
+  color: #ddd;
   overflow-x: auto;
   padding-top: 80px;
-  font-size: 1.7rem;
-  
+  font-size: 1.4rem;
+  font-family: arial, helvetica;
   width: 100%;
   margin: 0;
 }
 
+#about h2 {
+  font-family: fantasy, arial, helvetica;
+  font-size: 2em;
 
+}
 #portfolio {
-  background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  background-image: url(https://images.unsplash.com/photo-1516914589923-f105f1535f88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f412a6ee4af609b0e3f4f85248f2879f&auto=format&fit=crop&w=1650&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-shadow: 1px 1px 0px #000;
+  text-shadow: .5px .5px 1.5px #aaa;
   text-align: center;
-  color: #555;
+  color: #111;
   text-decoration: underline;
   overflow-x: auto;
   padding-top: 80px;
   width: 100%;
   margin: 0;
+  font-family: fantasy, arial, helvetica;
+  font-size: 1.4em;
 }
+#portfolio h2 {
+  font-size: 2em;
+}
+ #portfolio a {
+  color: #111;
+ }
+
 
 #contact {
-  background-image: url(https://static.pexels.com/photos/714060/pexels-photo-714060.jpeg);
+  background-image: url(https://images.unsplash.com/photo-1504573801800-9699d9a43182?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd6c2444aaf1dee43aa1c7139a79dbf3&auto=format&fit=crop&w=1549&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-shadow: 1px 1px 0px #ddd;
+  text-shadow: 2px 2px 1px #111;
   text-align: center;
-  color: #333;
+  color: #fff;
   padding-top: 80px;
 }
 #contactContent {
